@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="#1b1a18"/><circle cx="16" cy="16" r="5" fill="#e0471f"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <style>.n{fill:#1b1a18}@media (prefers-color-scheme:dark){.n{fill:#f4f2ed}}</style>
+  <g transform="translate(27.3 850.0) scale(0.9722)">
+    <path class="n" d="M61.999267578125 0.0V-720.0H223.0015869140625L573.9996948242188 -93.9993896484375L537.332275390625 -85.33251953125V-720.0H663.333740234375V0.0H502.3314208984375L151.33331298828125 -626.0006103515625L188.000732421875 -634.66748046875V0.0Z"/>
+    <circle fill="#e0471f" cx="804.5" cy="-90.2" r="90.2"/>
+  </g>
+</svg>

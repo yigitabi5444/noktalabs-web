@@ -1,3 +1,36 @@
-/* Paper theme values from design/themes/paper/. Replace with a plain copy of design/tokens.css when it lands. */
-:root { --bg: #f4f2ed; --ink: #1b1a18; --muted: #75716a; --line: #dcd8cf; --accent: #e0471f;
-  --max: 1120px; --gutter: clamp(1.5rem, 6vw, 6rem); --section: clamp(6rem, 16vh, 10rem); --gap: 3rem 4rem; }
+/* Nokta Labs design tokens v1 (2026-11-17), theme "Paper". Rules: design/DESIGN.md.
+   Fonts: copy design/fonts/ to the site and load fonts.css; this file loads nothing. */
+
+:root {
+  /* Color: warm paper, near-black ink, one orange dot */
+  --nl-bg: #f4f2ed;            /* page background */
+  --nl-ink: #1b1a18;           /* text, headlines, button */
+  --nl-muted: #6b675f;         /* secondary text (5:1 on bg) */
+  --nl-line: #dcd8cf;          /* 1px rules */
+  --nl-dot: #e0471f;           /* the dot only: wordmark, step numbers. Never body text. */
+  --nl-ink-hover: #3a3834;     /* button hover */
+
+  /* Type */
+  --nl-font: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif;
+  --nl-fs-display: clamp(2.75rem, 7vw, 5.5rem);  /* hero, one per page */
+  --nl-fs-h2: clamp(2rem, 4vw, 3rem);            /* section titles, statements */
+  --nl-fs-h3: 1.1875rem;                         /* item titles */
+  --nl-fs-lead: clamp(1.125rem, 1.8vw, 1.375rem);
+  --nl-fs-body: 1.0625rem;                       /* 17px */
+  --nl-fs-small: 0.875rem;
+  --nl-lh: 1.7;
+  --nl-lh-tight: 1.05;
+  --nl-track-display: -0.035em;
+  --nl-track-h2: -0.025em;
+  --nl-measure: 34ch;
+
+  /* Space */
+  --nl-gutter: clamp(1.5rem, 6vw, 6rem);          /* page side margin */
+  --nl-section: clamp(6rem, 16vh, 10rem);         /* padding above and below each section */
+  --nl-title-gap: 4rem;                           /* section title to its content */
+  --nl-grid-gap: 3rem 4rem;
+  --nl-max: 1120px;                               /* content width inside the gutters */
+
+  --nl-radius: 6px;
+  --nl-ease: 200ms ease-out;
+}
