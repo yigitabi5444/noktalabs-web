@@ -1,6 +1,6 @@
 # noktalabs-web
 
-Nokta Labs company site, planned for noktalabs.com. Plain HTML and CSS, no
+Nokta Labs company site, www.noktalabs.com (GitHub Pages, `CNAME`). Plain HTML and CSS, no
 build step, GitHub Pages from the repo root of `main`.
 
 | File | What |
